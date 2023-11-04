@@ -54,6 +54,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: fit-content;
+        
+        img {
+            
+            height: 700px;
+        }
     }
 }
