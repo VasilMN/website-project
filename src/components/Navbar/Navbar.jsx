@@ -17,7 +17,7 @@ const [menu, setMenu] = useState("shop")
             <li onClick={ ()=> {setMenu("shop")}}><NavLink to="/">Shop</NavLink> {menu === "shop"? <hr />:<></>} </li>
             <li onClick={()=> {setMenu("mens")}}><NavLink to="/mens">Men</NavLink> {menu === "mens"? <hr />:<></>}</li>
             <li onClick={()=> {setMenu("womens")}}><NavLink to="/womens">Women</NavLink> {menu === "womens"? <hr />:<></>}</li>
-            <li onClick={()=> {setMenu("kids")}}><NavLink to="/kid">Kids</NavLink> {menu === "kids"? <hr />:<></>}</li>
+            <li onClick={()=> {setMenu("kids")}}><NavLink to="/kids">Kids</NavLink> {menu === "kids"? <hr />:<></>}</li>
         </ul>
         <div className={Styles.nav_login_cart}>
         <NavLink to="/login"><button>Login</button></NavLink>

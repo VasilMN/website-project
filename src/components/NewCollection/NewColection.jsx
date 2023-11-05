@@ -10,7 +10,7 @@ export const NewCollection = () => {
            {new_collections.map((item,i) => {
                 
                 return <Item 
-                key={i} 
+                             key={i} 
                              id={item.id} 
                              name={item.name} 
                              image={item.image}
