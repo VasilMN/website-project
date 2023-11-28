@@ -22,7 +22,7 @@ export const ProductDisplay = ({ product }) => {
         <div className={Styles.productdisplay_right}>
             <h1>{product.name}</h1>
 
-            <div className={Styles.productdisplay_right_star}>
+        <div className={Styles.productdisplay_right_star}>
                 <img src={star_icon} alt="star_icon" />
                 <img src={star_icon} alt="star_icon" />
                 <img src={star_icon} alt="star_icon" />
@@ -38,17 +38,17 @@ export const ProductDisplay = ({ product }) => {
                 <div className={Styles.productdisplay_right_price_new}>
                     ${product.new_price}
                 </div>
+                
+            </div>
 
                 <div className={Styles.productdisplay_right_discription}>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et ipsum facilis, consequatur incidunt explicabo
-                        dolore quia molestiae odit similique tenetur illum, animi provident amet. Quae, exercitationem excepturi labore
-                        deleniti nulla assumenda sunt qui fugiat molestias maxime repudiandae laudantium saepe voluptate cumque possimus
-                        repellat placeat quasi dolore neque atque. Harum?</p>
+                    <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et ipsum facilis, consequatur incidunt explicabo
+                        </span>
                 </div>
 
                 <div className={Styles.productdisplay_right_size}>
-                    <h1>Select size</h1>
-                      <div className={Styles.productdisplay_right_size}>
+                    <h2>Select size</h2>
+                      <div className={Styles.productdisplay_right_sizes}>
                            <div>S</div>
                            <div>M</div>
                            <div>L</div>
@@ -59,7 +59,7 @@ export const ProductDisplay = ({ product }) => {
                  <button>ADD TO CART</button>
                  <p className={Styles.productdisplay_right_category}> <span>category :</span> woumn, T-shirt Crop Top</p>
                  <p className={Styles.productdisplay_right_category}> <span>Tags :</span> Modern, Latest</p>
-            </div>
+           
 
         </div>
     </div>
